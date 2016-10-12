@@ -4,7 +4,7 @@ var user = {
 
     name: 'Dallin',
     location: 'Vineyard',
-    occupations: ['developer'],
+    occupations: ['developer', 'Tech-Support - '],
     hobbies: [
       {
         name: 'hiking',
@@ -19,6 +19,7 @@ var user = {
         type: 'school'
       }
     ],
+
     family: [
       {
         name: 'Mikayda',
@@ -35,6 +36,7 @@ var user = {
         gender: 'Female'
       }
     ],
+
     restaurants: [
       {
         name: 'Cafe Rio',
@@ -51,7 +53,7 @@ var user = {
         type: 'Chinese',
         rating: 7
       }
-    ];
+    ]
 }
 
 

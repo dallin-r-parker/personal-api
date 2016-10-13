@@ -40,30 +40,43 @@ module.exports = {
     next();
   },
 
+  // getFamilyGender: function(req, res, next) {
+  //   var genderType = req.params.genderType;
+  //   var filterFamGender = user.family.filter(function(value) {
+  //     if(genderType  === value.gender){
+  //       return value;
+  //     }
+  //   })
+  //   res.status(200).json(filterFamGender)
+  //   next();
+  // },
+
   // getFamily: function(req, res, next) {
-  //     var relation = req.query.relation;
+  //
   //   for (var family in user) {
+  //     if (req.query.gender === 'male'){
+  //       res.json({gender: user.family.filter();})
+  //     }
   //     res.status(200).json(user.family);
   //   }
   //   next();
+  // },
+
+  //  getRestaurants: function(req, res, next) {
+  //    for (var item in restaurants) {
+  //      res.status(200).json(user.restaurants)
+  //    }
+  //       next();
   // }
 
-  getFamilyGender: function(req, res, next) {
-    var genderType = req.params.genderType;
-    var filterFamGender = user.family.filter(function(value) {
-      if(genderType === value.gender){
-        return value;
-      }
-    })
-    res.status(200).json(filterFamGender)
-    next();
-  }
 
 
 
 
 
-}
+
+
+}  // <-- this is the end of exports
 
 // NOTE: Req = Request: coming from the browser is a Request
 // NOTE: Res = Response: sending things back

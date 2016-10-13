@@ -18,7 +18,8 @@ app.get('/occupations/latest', mainCtrl.getOccLatest);
 app.get('/hobbies', mainCtrl.getHobbies);
 app.get('/hobbies/:hobbyType', mainCtrl.getHobbiesType);
 // app.get('/family', mainCtrl.getFamily);
-app.get('/family/:genderType', mainCtrl.getFamilyGender);
+// app.get('/family/:genderType', mainCtrl.getFamilyGender);
+
 
 
 //============listen

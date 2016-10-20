@@ -27,8 +27,8 @@ var port = 3030;
 app.listen(port, function() {
   console.log('You\'re listening on port: ' + port);
 })
-// NOTE: Req = Request: coming from the browser is a Request
-// NOTE: Res = Response: sending things back
+// NOTE: Req = Request: coming from the browser is a Request 
+// NOTE: Res = Response: sending things back to front-end
 // NOTE: PUT: UPDATE CONTENT
 // NOTE: GET: REQUEST INFORMATION
 // NOTE: POST: ADD NEW INFORMATION -- body can only be used on POST
